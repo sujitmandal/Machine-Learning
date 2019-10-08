@@ -12,8 +12,10 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 
  How machine learning works?
 -----------------------------
-• Machine learning are two types of techniques: 
+• Machine learning are two types of techniques:
+
 • Supervised.
+
 • Unsupervised.
 
  Machine learning techniques:
