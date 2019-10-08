@@ -81,7 +81,7 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 5. Threshold  
 
  Requirement’s:
------------------
+----------------
 
 • Python 3.7
 
