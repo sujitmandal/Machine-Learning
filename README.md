@@ -107,10 +107,9 @@ Download https://code.visualstudio.com/Download
 
  Installing the required package’s:
 -------------------------------------
+• Pip install scikit-learn
 
 • Pip install matplotlib
-
-• Pip install scikit-learn
 
 • Pip install skimage
 
