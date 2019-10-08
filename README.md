@@ -86,7 +86,6 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 • Python 3.7
 
 • Anaconda
-----------
 
 • Visual Studio Code
 
