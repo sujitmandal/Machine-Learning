@@ -106,19 +106,19 @@ Download https://code.visualstudio.com/Download
 
  Installing the required package’s:
 -------------------------------------
-• Pip install scikit-learn
+• pip install scikit-learn
 
-• Pip install matplotlib
+• pip install matplotlib
 
-• Pip install skimage
+• pip install skimage
 
-• Pip install opencv
+• pip install opencv
 
-• Pip install pandas
+• pip install pandas
 
-• Pip install numpy
+• pip install numpy
 
-• Pip install scipy
+• pip install scipy
 
 License:
 --------
