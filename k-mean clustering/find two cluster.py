@@ -34,3 +34,16 @@ print('OUTPUT:')
 print("Labels: ", labels)
 print("Centroids: ", centroids)
 print("Number of cluster's is", number_of_cluster)
+
+#OUTPUT:
+'''
+    Enter The Number of cluster: 2
+
+
+    OUTPUT:
+    Labels:  [0 0 0 0 0 0 1 1 1]
+    Centroids:  [[ 7.]
+    [25.]]
+    Number of cluster's is 2
+
+'''
