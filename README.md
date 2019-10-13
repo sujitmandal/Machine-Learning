@@ -114,7 +114,7 @@ Download https://code.visualstudio.com/Download
 
 • pip install skimage
 
-• pip install opencv
+• conda install opencv
 
 • pip install pandas
 
