@@ -110,9 +110,9 @@ Download https://code.visualstudio.com/Download
 -------------------------------------
 • pip install scikit-learn
 
-• pip install matplotlib
+• pip install scikit-image
 
-• pip install skimage
+• pip install matplotlib
 
 • conda install opencv
 
