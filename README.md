@@ -100,7 +100,19 @@ Download https://www.python.org/downloads/
 
 • Anaconda : 
 ------------
-Download https://www.anaconda.com/downloads
+Windows:
+-------
+• Download https://www.anaconda.com/downloads
+
+Linux:
+------
+Command:
+-------
+• " wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh "
+
+• " bash Anaconda3-5.3.1-Linux-x86_64.sh "
+
+• " conda update anaconda "
 
 • Visual Studio Code :
 ----------------------
