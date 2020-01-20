@@ -48,7 +48,7 @@ mse = mean_squared_error(cylinders, mpg)
 print('Mean Squared Error = %0.3f' % mse)
 
 rmse = mean_squared_error(cylinders, mpg, squared=False)
-print('Root Mean Squared  = %0.3f' % rmse)
+print('Root Mean Squared Error = %0.3f' % rmse)
 
 cylinders_mean = mean(cylinders)
 cylinders_stdv = std(cylinders)
@@ -88,7 +88,7 @@ plt.show()
 
 
 Mean Squared Error = 403.361
-Root Mean Squared  = 20.084
+Root Mean Squared Error = 20.084
 Cylinders Mean = 5.475
 Cylinders Standard Deviation = 1.710
 MPG Mean = 23.051
