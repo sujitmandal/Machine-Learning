@@ -46,8 +46,8 @@ print('\n')
 mse = mean_squared_error(acceleration, mpg)
 print('Mean Squared Error = %0.3f' % mse)
 
-mes_without_squared = mean_squared_error(acceleration, mpg, squared=False)
-print('Mean Squared Error Without Squared = %0.3f' % mes_without_squared)
+rmes = mean_squared_error(acceleration, mpg, squared=False)
+print('Root Mean Squared = %0.3f' % rmes)
 
 acceleration_mean = mean(acceleration)
 acceleration_stdv = std(acceleration)
@@ -87,7 +87,7 @@ plt.show()
 
 
 Mean Squared Error = 115.032
-Mean Squared Error Without Squared = 10.725
+Root Mean Squared = 10.725
 Acceleration Mean = 15.520
 Acceleration Standard Deviation = 2.800
 MPG Mean = 23.051
