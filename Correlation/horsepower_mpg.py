@@ -47,8 +47,8 @@ print('\n')
 mse = mean_squared_error(horsepower, mpg)
 print('Mean Squared Error = %0.3f' % mse)
 
-rmes = mean_squared_error(horsepower, mpg, squared=False)
-print('Root Mean Squared Error = %0.3f' % rmes)
+rmse = mean_squared_error(horsepower, mpg, squared=False)
+print('Root Mean Squared Error = %0.3f' % rmse)
 
 horsepower_mean = mean(horsepower)
 horsepower_stdv = std(horsepower)
