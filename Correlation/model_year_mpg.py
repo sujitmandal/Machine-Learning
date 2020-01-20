@@ -47,8 +47,8 @@ print('\n')
 mse = mean_squared_error(model_Year, mpg)
 print('Mean Squared Error = %0.3f' % mse)
 
-mes_without_squared = mean_squared_error(model_Year, mpg, squared=False)
-print('Mean Squared Error Without Squared = %0.3f' % mes_without_squared)
+rmse = mean_squared_error(model_Year, mpg, squared=False)
+print('Root Mean Squared Error = %0.3f' % rmse)
 
 model_Year_mean = mean(model_Year)
 model_Year_stdv = std(model_Year)
@@ -88,7 +88,7 @@ plt.show()
 
 
 Mean Squared Error = 2842.829
-Mean Squared Error Without Squared = 53.318
+Root Mean Squared Error = 53.318
 Model Year Mean = 75.921
 Model Year Standard Deviation = 3.744
 MPG Mean = 23.051
