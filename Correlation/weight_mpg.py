@@ -47,8 +47,8 @@ print('\n')
 mse = mean_squared_error(weight, mpg)
 print('Mean Squared Error = %0.3f' % mse)
 
-mes_without_squared = mean_squared_error(weight, mpg, squared=False)
-print('Mean Squared Error Without Squared = %0.3f' % mes_without_squared)
+rmes = mean_squared_error(weight, mpg, squared=False)
+print('Root Mean Squared Error = %0.3f' % rmes)
 
 weight_mean = mean(weight)
 weight_stdv = std(weight)
@@ -88,7 +88,7 @@ plt.show()
 
 
 Mean Squared Error = 9466980.081
-Mean Squared Error Without Squared = 3076.846
+Root Mean Squared Error = 3076.846
 Weight Mean = 2979.414
 Weight Standard Deviation = 845.961
 MPG Mean = 23.051
