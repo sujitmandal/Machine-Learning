@@ -47,8 +47,8 @@ print('\n')
 mse = mean_squared_error(displacement, mpg)
 print('Mean Squared Error = %0.3f' % mse)
 
-mes_without_squared = mean_squared_error(displacement, mpg, squared=False)
-print('Mean Squared Error Without Squared = %0.3f' % mes_without_squared)
+rmse = mean_squared_error(displacement, mpg, squared=False)
+print('Root Mean Squared Error = %0.3f' % rmse)
 
 displacement_mean = mean(displacement)
 displacement_stdv = std(displacement)
@@ -87,7 +87,7 @@ plt.show()
 
 
 Mean Squared Error = 41886.796
-Mean Squared Error Without Squared = 204.663
+Root Mean Squared Error = 204.663
 Displacement Mean = 194.780
 Displacement Standard Deviation = 104.793
 MPG Mean = 23.051
