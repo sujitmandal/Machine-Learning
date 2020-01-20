@@ -47,8 +47,8 @@ print('\n')
 mse = mean_squared_error(weight, mpg)
 print('Mean Squared Error = %0.3f' % mse)
 
-rmes = mean_squared_error(weight, mpg, squared=False)
-print('Root Mean Squared Error = %0.3f' % rmes)
+rmse = mean_squared_error(weight, mpg, squared=False)
+print('Root Mean Squared Error = %0.3f' % rmse)
 
 weight_mean = mean(weight)
 weight_stdv = std(weight)
