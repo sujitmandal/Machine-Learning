@@ -47,8 +47,8 @@ print('\n')
 mse = mean_squared_error(horsepower, mpg)
 print('Mean Squared Error = %0.3f' % mse)
 
-mes_without_squared = mean_squared_error(horsepower, mpg, squared=False)
-print('Mean Squared Error Without Squared = %0.3f' % mes_without_squared)
+rmes = mean_squared_error(horsepower, mpg, squared=False)
+print('Root Mean Squared Error = %0.3f' % rmes)
 
 horsepower_mean = mean(horsepower)
 horsepower_stdv = std(horsepower)
@@ -88,7 +88,7 @@ plt.show()
 
 
 Mean Squared Error = 8678.621
-Mean Squared Error Without Squared = 93.159
+Root Mean Squared Error = 93.159
 Horsepower Mean = 103.530
 Horsepower Standard Deviation = 40.471
 MPG Mean = 23.051
