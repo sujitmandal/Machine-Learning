@@ -1,6 +1,6 @@
 # Machine-Learning
-Linear Regression , k-mean clustering , Watershed , Gradients and Edge Detection , Threshold
---------------------------------------------------------------------------------------------
+Linear Regression , k-mean clustering , Watershed , Gradients and Edge Detection , Threshold , Corelation
+----------------------------------------------------------------------------------------------------------
 
  Introduction:
 ---------------
