@@ -130,6 +130,8 @@ Download https://code.visualstudio.com/Download
 
 • pip install pandas
 
+• pip install seaborn
+
 • pip install numpy
 
 • pip install scipy
