@@ -80,7 +80,9 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 2. k-mean clustering 
 3. Watershed 
 4. Gradients and Edge Detection 
-5. Threshold  
+5. Threshold
+6. Cross Validation
+7. Correlation
 
  Requirement’s:
 ----------------
