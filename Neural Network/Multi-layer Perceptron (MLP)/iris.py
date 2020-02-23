@@ -125,4 +125,5 @@ print(classification_report(y_train,predict_train))
         accuracy                           0.95       105
     macro avg       0.95      0.95      0.95       105
     weighted avg       0.95      0.95      0.95       105
+    
     '''
