@@ -1,6 +1,6 @@
 # Machine-Learning
-Linear Regression , k-mean clustering , Watershed , Gradients and Edge Detection , Threshold , Corelation
-----------------------------------------------------------------------------------------------------------
+Linear Regression , k-mean clustering , Watershed , Gradients and Edge Detection , Threshold , Corelation , Neural Network
+---------------------------------------------------------------------------------------------------------------------------
 
  Introduction:
 ---------------
@@ -83,6 +83,7 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 5. Threshold
 6. Cross Validation
 7. Correlation
+8. Neural Network
 
  Requirement’s:
 ----------------
