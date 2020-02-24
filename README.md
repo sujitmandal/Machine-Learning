@@ -53,6 +53,7 @@ K-means cluster:
 	Therefore M1 = 4, M2 = 12  [ note: (K - M1) = X1, (K - M2) = X2 ,min value will be taken ]
 
 Iteration 1
+
 	k1 = { 2, 3, 4 }
 	K2 = { 10, 11, 12, 20, 25, 30 }
 
@@ -61,6 +62,7 @@ Iteration 1
 	M1 = 3                 M2 = 18
 
 Iteration 2 :
+
 	K1 = { 2, 3, 4, 10 }
 	K2 = { 11, 12, 20, 25, 30 }
 	
@@ -70,7 +72,8 @@ Iteration 2 :
 	M1 = 5		       M2 = 20
 
 
-Iteration 3 :	
+Iteration 3 :
+
 	K1 = { 2, 3, 4, 10, 12 }
 	K2 = { 20, 25, 30 }
 	
@@ -79,6 +82,7 @@ Iteration 3 :
 	M1 = 7			      M2 = 25
 	
 Iteration 4 : 
+
 	K1 = { 2, 3, 4, 10, 12 }
 	K2 = { 20, 25, 30 }
 	
