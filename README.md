@@ -49,7 +49,7 @@ K-means cluster:
 
 	Let  k = 2 , where we are going to find two clusters.
 
-	Let mean m1, m2.
+	Let mean M1, M2.
 	Therefore M1 = 4, M2 = 12  [ note: (K - M1) = X1, (K - M2) = X2 ,min value will be taken ]
 
 Iteration 1
