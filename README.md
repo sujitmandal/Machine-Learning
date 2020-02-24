@@ -41,6 +41,61 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 -------------
 • Clustering is the most common unsupervised learning technique. It is used for exploratory data analysis to find hidden patterns. It is used to grope the data for similar type data. For example gene sequence analysis, market research, and object recognition.
 
+
+K-means cluster:
+---------------
+
+	K = { 2, 3, 4, 10, 11, 12, 20, 25, 30 } 
+
+	Let  k = 2 , where we are going to find two clusters.
+
+	Let mean m1, m2.
+	Therefore M1 = 4, M2 = 12  [ note: (K - M1) = X1, (K - M2) = X2 ,min value will be taken ]
+
+# Iteration 1
+	k1 = { 2, 3, 4 }
+	K2 = { 10, 11, 12, 20, 25, 30 }
+
+	M1 = (2+3+4 / 3 )      M2 = (10+11+12+20+25+30 / 6)
+	M1 = (9 / 3)  	       M2 = (108 / 6)
+	M1 = 3                 M2 = 18
+
+# Iteration 2 :
+	K1 = { 2, 3, 4, 10 }
+	K2 = { 11, 12, 20, 25, 30 }
+	
+	M1 = (2+3+4+10 / 4)    M2 = (11+12+20+25+30 / 5)
+	M1 = (19 / 4)          M2 = (98 / 5)
+	M1 = 4.75	       M2 = 19.5
+	M1 = 5		       M2 = 20
+
+
+# Iteration 3 :	
+	K1 = { 2, 3, 4, 10, 12 }
+	K2 = { 20, 25, 30 }
+	
+	M1 = (2+3+4+10+11+12 / 6)     M2 = (20+25+30 / 3)
+	M1 = (42 / 6)		      M2 = (75 / 3)
+	M1 = 7			      M2 = 25
+	
+# Iteration 4 : 
+	K1 = { 2, 3, 4, 10, 12 }
+	K2 = { 20, 25, 30 }
+	
+	M1 = (2+3+4+10+11+12 / 6)      M2 = (20+25+30 / 3)
+	M1 = (42 / 6)		       M2 = (75 / 3)
+	M1 = 7			       M2 = 25
+
+	Thus we are getting the same meaning hence we need to stop.
+
+	Therefore the new cluster is…..
+
+		K1 = { 2, 3, 4, 10, 12 }
+		K2 = { 20, 25, 30 }
+
+		And the centroids is [ 7, 25 ]
+
+
  Association:
 ---------------
 • Association is used to find the patterns.
