@@ -93,36 +93,36 @@ plt.show()
 print('\n')
 print('Classification Report:')
 print(confusion_matrix(y_train,predict_train))
-print(classification_report(y_train,predict_train))
+print(classification_report(y_train,predict_train,target_names=class_names))
 
 #OUTPUT
 '''
-    Accuracy : 97.77777777777777
+   Accuracy : 100.0
 
 
-    Confusion matrix, without normalization
-    [[16  0  0]
-    [ 0 13  1]
-    [ 0  0 15]]
+Confusion matrix, without normalization
+[[16  0  0]
+ [ 0 14  0]
+ [ 0  0 15]]
 
 
-    Normalized confusion matrix
-    [[1.         0.         0.        ]
-    [0.         0.92857143 0.07142857]
-    [0.         0.         1.        ]]
+Normalized confusion matrix
+[[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
 
 
-    Classification Report:
-    [[34  0  0]
-    [ 0 33  3]
-    [ 0  2 33]]
-                precision    recall  f1-score   support
+Classification Report:
+[[34  0  0]
+ [ 0 33  3]
+ [ 0  1 34]]
+              precision    recall  f1-score   support
 
-            0       1.00      1.00      1.00        34
-            1       0.94      0.92      0.93        36
-            2       0.92      0.94      0.93        35
+  Vinyard #1       1.00      1.00      1.00        34
+  Vinyard #2       0.97      0.92      0.94        36
+  Vinyard #3       0.92      0.97      0.94        35
 
-        accuracy                           0.95       105
-    macro avg       0.95      0.95      0.95       105
-    weighted avg       0.95      0.95      0.95       105
+    accuracy                           0.96       105
+   macro avg       0.96      0.96      0.96       105
+weighted avg       0.96      0.96      0.96       105
     '''
