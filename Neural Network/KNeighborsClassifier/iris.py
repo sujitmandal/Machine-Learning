@@ -86,4 +86,35 @@ plt.show()
 print('\n')
 print('Classification Report:')
 print(confusion_matrix(y_train,predict_train))
-print(classification_report(y_train,predict_train))
+print(classification_report(y_train,predict_train, target_names=class_names))
+
+#OUTPUT:
+
+'''Accuracy : 100.0
+
+
+Confusion matrix, without normalization
+[[16  0  0]
+ [ 0 14  0]
+ [ 0  0 15]]
+
+
+Normalized confusion matrix
+[[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+
+
+Classification Report:
+[[34  0  0]
+ [ 0 36  0]
+ [ 0  2 33]]
+              precision    recall  f1-score   support
+
+      Setosa       1.00      1.00      1.00        34
+  Versicolor       0.95      1.00      0.97        36
+   Virginica       1.00      0.94      0.97        35
+
+    accuracy                           0.98       105
+   macro avg       0.98      0.98      0.98       105
+weighted avg       0.98      0.98      0.98       105'''
