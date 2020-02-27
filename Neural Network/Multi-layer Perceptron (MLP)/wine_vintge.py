@@ -25,26 +25,23 @@ Facebook : https://www.facebook.com/sujit.mandal.33671748
 Twitter : https://twitter.com/mandalsujit37
 """
 
-
-
-data = pd.read_csv('iris.csv')
-'''print(data.head(5))
+data = pd.read_csv('wine vintge.csv')
+print(data.head(5))
 print('\n')
 print(data.tail(5))
 print('\n')
-print(data.shape)'''
+print(data.shape)
 
 class_names = ['Vinyard #1' , 'Vinyard #2', 'Vinyard #3']
 
 transpose = data.describe().transpose()
-#print(transpose)
+print(transpose)
 
 target_column = ['variety']
 predictors = list(set(list(data.columns)) - set(target_column)) 
 data[predictors] = data[predictors] / data[predictors].max()
 predictors_transpose = data.describe().transpose()
-
-#print(predictors_transpose)
+print(predictors_transpose)
 
 #Creating the Training and Test Datasets
 
@@ -53,10 +50,8 @@ y = data[target_column].values
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.30, random_state=40)
 
-'''print('\n')
 print(x_train.shape)
-print(x_test.shape)'''
-
+print(x_test.shape)
 
 #Building, Predicting, and Evaluating the Neural Network Model
 
@@ -66,12 +61,10 @@ mlp.fit(x_train, y_train)
 predict_train = mlp.predict(x_train)
 predict_test = mlp.predict(x_test)
 
-
-
 predicted = mlp.predict(x_test)
 accuracy = accuracy_score(y_test, predicted)
-accuracyInpercentage = (accuracy * 100)
 
+accuracyInpercentage = (accuracy * 100)
 print('\n')
 print('Accuracy :', accuracyInpercentage)
 
@@ -93,36 +86,36 @@ plt.show()
 print('\n')
 print('Classification Report:')
 print(confusion_matrix(y_train,predict_train))
-print(classification_report(y_train,predict_train,target_names=class_names))
+print(classification_report(y_train,predict_train, target_names=class_names))
 
-#OUTPUT
-'''
-  Accuracy : 100.0
+#OUTPUT:
+
+'''Accuracy : 98.14814814814815
 
 
 Confusion matrix, without normalization
-[[16  0  0]
- [ 0 14  0]
- [ 0  0 15]]
+[[15  0  0]
+ [ 0 20  0]
+ [ 0  1 18]]
 
 
 Normalized confusion matrix
-[[1. 0. 0.]
- [0. 1. 0.]
- [0. 0. 1.]]
+[[1.         0.         0.        ]
+ [0.         1.         0.        ]
+ [0.         0.05263158 0.94736842]]
 
 
 Classification Report:
-[[34  0  0]
- [ 0 34  2]
- [ 0  1 34]]
+[[42  2  0]
+ [ 2 47  2]
+ [ 0  0 29]]
               precision    recall  f1-score   support
 
-  Vinyard #1       1.00      1.00      1.00        34
-  Vinyard #2       0.97      0.94      0.96        36
-  Vinyard #3       0.94      0.97      0.96        35
+  Vinyard #1       0.95      0.95      0.95        44
+  Vinyard #2       0.96      0.92      0.94        51
+  Vinyard #3       0.94      1.00      0.97        29
 
-    accuracy                           0.97       105
-   macro avg       0.97      0.97      0.97       105
-weighted avg       0.97      0.97      0.97       105
-    '''
+    accuracy                           0.95       124
+   macro avg       0.95      0.96      0.95       124
+weighted avg       0.95      0.95      0.95       124
+'''
