@@ -97,7 +97,7 @@ print(classification_report(y_train,predict_train,target_names=class_names))
 
 #OUTPUT
 '''
-   Accuracy : 100.0
+  Accuracy : 100.0
 
 
 Confusion matrix, without normalization
@@ -114,15 +114,15 @@ Normalized confusion matrix
 
 Classification Report:
 [[34  0  0]
- [ 0 33  3]
+ [ 0 34  2]
  [ 0  1 34]]
               precision    recall  f1-score   support
 
   Vinyard #1       1.00      1.00      1.00        34
-  Vinyard #2       0.97      0.92      0.94        36
-  Vinyard #3       0.92      0.97      0.94        35
+  Vinyard #2       0.97      0.94      0.96        36
+  Vinyard #3       0.94      0.97      0.96        35
 
-    accuracy                           0.96       105
-   macro avg       0.96      0.96      0.96       105
-weighted avg       0.96      0.96      0.96       105
+    accuracy                           0.97       105
+   macro avg       0.97      0.97      0.97       105
+weighted avg       0.97      0.97      0.97       105
     '''
