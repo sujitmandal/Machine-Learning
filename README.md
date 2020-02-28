@@ -182,6 +182,8 @@ Download https://code.visualstudio.com/Download
 
  Installing the required package’s:
 -------------------------------------
+• pip install opencv-python
+
 • pip install scikit-learn
 
 • pip install scikit-image
