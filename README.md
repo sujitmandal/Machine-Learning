@@ -182,6 +182,8 @@ Download https://code.visualstudio.com/Download
 
  Installing the required package’s:
 -------------------------------------
+• pip install -q git+https://github.com/tensorflow/docs 
+
 • pip install opencv-python
 
 • pip install scikit-learn
@@ -189,6 +191,8 @@ Download https://code.visualstudio.com/Download
 • pip install scikit-image
 
 • pip install matplotlib
+
+• pip install tensorflow
 
 • conda install opencv
 
