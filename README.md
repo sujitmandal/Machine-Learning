@@ -33,6 +33,16 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 -------------
 • Regression techniques predict continuous responses for example, changes in temperature or fluctuation in power demand. Typical application include electricity load forecasting and algorithmic trading.
 
+ Output:
+-------
+ Linear Regression:
+--------------------
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Scatter%20Plot.png(
+
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Outputs%20plot.png)
+
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Outputs%20plot.png)
+
  Unsupervised learning:
 ------------------------
 • Unsupervised learning which finds hidden patterns in data. It is used to draw inferences from datasets consisting of input data without labelled responses. Unsupervised uses clustering and association techniques to develop predictive models.
@@ -41,6 +51,13 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 -------------
 • Clustering is the most common unsupervised learning technique. It is used for exploratory data analysis to find hidden patterns. It is used to grope the data for similar type data. For example gene sequence analysis, market research, and object recognition.
 
+ Output:
+---------
+ k-mean clustering:
+--------------------
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/k-mean%20clustering/Figure_1.jpg.png)
+
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/k-mean%20clustering/Figure_2.jpg.png)
 
 K-means cluster:
 ---------------
@@ -98,7 +115,48 @@ Iteration 4 :
 		K2 = { 20, 25, 30 }
 
 		And the centroids is [ 7, 25 ]
+		
+ Neural networks :
+-------------------
+• Neural networks are composed of simple elements operating in parallel. These elements are inspired by biological nervous systems. As in nature, the network function is determined largely by the connections between elements. We can train a neural network to perform a particular function by adjusting the values of the connections (weights) between elements.
 
+ Multi Layer Neural Networks Architecture:
+------------------------------------------
+ ![](https://github.com/sujitmandal/Machine-Learning/blob/master/data/Data/nnet.jpg)
+ 
+  Multi Layer Feed Forward Neural Networks Architecture :
+ ---------------------------------------------------------
+ ![](https://github.com/sujitmandal/Machine-Learning/blob/master/data/Data/OH3gI.png)
+ 
+ Output:
+---------
+1.Multi-layer Perceptron (MLP):
+-------------------------------
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Neural%20Network/Multi-layer%20Perceptron%20(MLP)/irisWithOutNormalization.png)
+
+2.KNeighborsClassifier(KNN):
+----------------------------
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Neural%20Network/KNeighborsClassifier/irisWithoutNormalization.png)
+
+ Convolutional Neural Network:
+-------------------------------
+• Convolutional Neural Network has Artificial Neural Network design architecture, which has proven its effectiveness in areas such as image recognition and classification. The Basic Principle behind the working of CNN is the idea of Convolution, producing filtered Feature Maps stacked over each other. A convolutional neural network consists of several layers. Implicit explanation about each of these layers is given below.
+
+ One:
+------
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/data/Data/cnn1.png)
+
+ Two:
+------
+@[](https://github.com/sujitmandal/Machine-Learning/blob/master/data/Data/cnn2.png)
+
+ Three:
+--------
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/data/Data/cnn3.jpeg)
+
+ Output of Convolutional Neural Network:
+-----------------------------------------
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Convolutional%20Neural%20Network/Convolutional%20Neural%20Network%20for%20Gangetic%20West%20Bengal/%20Actuall%20vs.%20Prediction.png)
 
  Association:
 ---------------
