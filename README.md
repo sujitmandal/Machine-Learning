@@ -41,7 +41,7 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 
 ![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Outputs%20plot.png)
 
-![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Outputs%20plot.png)
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Actual%20vs.%20Predicted.png)
 
  Unsupervised learning:
 ------------------------
