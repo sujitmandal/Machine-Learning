@@ -37,7 +37,7 @@ Computer Vision is one of the hottest topics in artificial intelligence. It is m
 -------
  Linear Regression:
 --------------------
-![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Scatter%20Plot.png(
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Scatter%20Plot.png)
 
 ![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Regression/Linear%20Regression/Outputs%20plot.png)
 
@@ -148,7 +148,7 @@ Iteration 4 :
 
  Two:
 ------
-@[](https://github.com/sujitmandal/Machine-Learning/blob/master/data/Data/cnn2.png)
+![](https://github.com/sujitmandal/Machine-Learning/blob/master/data/Data/cnn2.png)
 
  Three:
 --------
@@ -201,6 +201,7 @@ Iteration 4 :
 6. Cross Validation
 7. Correlation
 8. Neural Network
+9. Convolutional Neural Network
 
  Requirement’s:
 ----------------
