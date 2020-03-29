@@ -243,7 +243,7 @@ Download https://code.visualstudio.com/Download
 -------------------------------------
 • pip install -q git+https://github.com/tensorflow/docs 
 
-• conda install -c conda-forge opencv=4.1.0
+• conda install -c conda-forge opencv=4.2.0
 
 • pip install opencv-python
 
