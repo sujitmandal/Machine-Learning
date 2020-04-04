@@ -1,0 +1,71 @@
+{"intents": [
+        {"tag": "Morning",
+         "patterns": ["Morning" , "Good Morning"],
+         "responses": ["Good Moring..","Good Moring have a good day", "Good Moring have a nice day"],
+         "context_set": ""
+        },
+        {"tag": "Evening",
+         "patterns": ["Evening", "Good Evening"],
+         "responses": ["Good Evening..","Good Evening have a good day", "Good Evening have a nice day"],
+         "context_set": ""
+        },
+        {"tag": "Night",
+         "patterns": ["Night", "Good Night"],
+         "responses": ["Good Night..","Good Night have a peacfull sleep", "Good Night have a nice dream"],
+         "context_set": ""
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi","Hey","How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!","I am fine.", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "Goodbye",
+         "patterns": ["cya","Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
+         "responses": ["You can call me ChatBot", "I'm bot", "I am ChatBot I was created by SUJIT MANDAL"],
+         "context_set": ""
+        },
+        {"tag": "boring",
+         "patterns": ["I am bored", "I am getting bored", "boring"],
+         "responses": ["Well play some songs", "well play some games"],
+         "context_set": ""
+        },
+        {"tag": "Sad",
+         "patterns": ["I am sad", "I am getting sad", "sad"],
+         "responses": ["Well call your bestfriend", "well call your mother","Try to be happy always.."],
+         "context_set": ""
+        },
+        {"tag": "Happy",
+         "patterns": ["I am happy", "I am so happy", "happy"],
+         "responses": ["Woow that's awesome..", "Be happy always.."],
+         "context_set": ""
+        },
+        {"tag": "Information",
+         "patterns": ["who is sujit?", "last name of sujit"],
+         "responses": ["Sujit Mandal is  a student and also he is a Python Devoloper!", "Mandal"],
+         "context_set": ""
+        },
+        {"tag": "about me",
+         "patterns": ["Tell me about sujit","Tell me about sujit mandal","sujit mandal"],
+         "responses": ["Sujit Mandal is a Python Devoloper. He doing Research in Machine Learning. his github link:https://github.com/sujitmandal?tab=repositories"],
+         "context_set": ""
+        },
+        {"tag": "Lyrics",
+         "patterns": ["coffin", "I love the way you lie"],
+         "responses": ["https://lyricsfa.com/2020/03/27/jessie-reyez-coffin-ft-eminem-lyrics/",
+                        "https://www.azlyrics.com/lyrics/eminem/lovethewayyoulie.html"
+                        ],
+         "context_set": ""
+        }
+        
+   ]
+}
