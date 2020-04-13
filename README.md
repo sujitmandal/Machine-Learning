@@ -154,9 +154,6 @@ Iteration 4 :
 --------
 ![](https://github.com/sujitmandal/Machine-Learning/blob/master/data/Data/cnn3.jpeg)
 
- Output of Convolutional Neural Network:
------------------------------------------
-![](https://github.com/sujitmandal/Machine-Learning/blob/master/Output/Convolutional%20Neural%20Network/Convolutional%20Neural%20Network%20for%20Gangetic%20West%20Bengal/%20Actuall%20vs.%20Prediction.png)
 
  Association:
 ---------------
