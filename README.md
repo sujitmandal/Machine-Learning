@@ -236,6 +236,11 @@ Command:
 ----------------------
 Download https://code.visualstudio.com/Download
 
+• How to install | Python | | Anaconda | | Opencv library |
+------------------------------------------------------------
+ [![How to install | Python | | Anaconda | | Opencv library |](https://yt-embed.herokuapp.com/embed?v=eVV3byQlYvA)](https://www.youtube.com/watch?v=eVV3byQlYvA "How to install | Python | | Anaconda | | Opencv library |")
+
+
  Installing the required package’s:
 -------------------------------------
 • pip install -q git+https://github.com/tensorflow/docs 
