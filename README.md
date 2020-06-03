@@ -259,6 +259,8 @@ Download https://code.visualstudio.com/Download
 
 • conda install opencv
 
+• pip install shuffle
+
 • pip install pandas
 
 • pip install seaborn
@@ -266,6 +268,8 @@ Download https://code.visualstudio.com/Download
 • pip install numpy
 
 • pip install scipy
+
+• pip install tqdm
 
 License:
 --------
