@@ -118,6 +118,10 @@ Iteration 4 :
 		
  Neural networks :
 -------------------
+
+#Output:
+ [![Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |](https://yt-embed.herokuapp.com/embed?v=wfK5N9Qq1uk)](https://www.youtube.com/watch?v=wfK5N9Qq1uk "Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |")
+ 
 • Neural networks are composed of simple elements operating in parallel. These elements are inspired by biological nervous systems. As in nature, the network function is determined largely by the connections between elements. We can train a neural network to perform a particular function by adjusting the values of the connections (weights) between elements.
 
  Multi Layer Neural Networks Architecture:
