@@ -118,11 +118,7 @@ Iteration 4 :
 		
  Neural networks :
 -------------------
-  Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |:
--------------------------------------------------------------------------------------
 
- [![Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |](https://yt-embed.herokuapp.com/embed?v=wfK5N9Qq1uk)](https://www.youtube.com/watch?v=wfK5N9Qq1uk "Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |")
- 
 • Neural networks are composed of simple elements operating in parallel. These elements are inspired by biological nervous systems. As in nature, the network function is determined largely by the connections between elements. We can train a neural network to perform a particular function by adjusting the values of the connections (weights) between elements.
 
  Multi Layer Neural Networks Architecture:
@@ -192,6 +188,38 @@ Iteration 4 :
 ---------------------
 • A measure that combines precision and recall is the harmonic mean of precision and recall that traditionally called F-Measure or balance F-score. 
 
+ Face Mask Detection using Tensorflow, Keras, Opencv, Python :
+-------------------------------------------------------------
+
+ [![Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |](https://yt-embed.herokuapp.com/embed?v=wfK5N9Qq1uk)](https://www.youtube.com/watch?v=wfK5N9Qq1uk "Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |")
+
+ Plot Output:
+--------------
+
+ train mask image:
+-------------------
+![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/train_mask_image.png)
+
+ train without mask image:
+---------------------------
+![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/train_without_mask_image.png)
+
+ test mask image:
+-------------------
+![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/test_mask_image.png)
+
+ test without mask image:
+---------------------------
+![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/test_without_mask_image.png)
+
+ accuracy:
+-------------------
+![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/Figure_1.png)
+
+ accuracy:
+---------------------------
+![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/Figure_1.png)
+
  Method:
 ---------
 
@@ -204,6 +232,7 @@ Iteration 4 :
 7. Correlation
 8. Neural Network
 9. Convolutional Neural Network
+10. Face Mask Detection
 
  Requirement’s:
 ----------------
