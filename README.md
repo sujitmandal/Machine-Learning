@@ -299,6 +299,8 @@ Download https://code.visualstudio.com/Download
 
 • pip install seaborn
 
+• pip install keras
+
 • pip install numpy
 
 • pip install scipy
