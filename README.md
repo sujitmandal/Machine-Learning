@@ -233,6 +233,8 @@ Iteration 4 :
 8. Neural Network
 9. Convolutional Neural Network
 10. Face Mask Detection
+11. Image to Array and train and test
+12. Pneumonia Classification
 
  Requirement’s:
 ----------------
