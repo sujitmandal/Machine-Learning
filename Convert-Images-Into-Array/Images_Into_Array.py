@@ -14,32 +14,34 @@ Facebook : https://www.facebook.com/sujit.mandal.33671748
 Twitter : https://twitter.com/mandalsujit37
 """
 
-images_path = input('Enter Image Folder Path : ') #Path of the images folder
-image_size = int(input('Enter The Image Size [32, 64, 128] : '))
+#images_path = input('Enter Image Folder Path : ') #Path of the images folder
+#image_size = int(input('Enter The Image Size [32, 64, 128] : '))
+
+images_path = ('/media/sujit/92EC423BEC4219BD/GitHub Preoject/ALL ML PROJECT/Face Mask Detection/face mask detection  dataset/test/without mask') #Path of the images folder
+image_size = 32
 
 def images(images_path, image_size):
-    empty_list = []
+    imges_list = []
 
     for image in tqdm(os.listdir(images_path)):
         path = os.path.join(images_path, image)
 
         image = cv2.imread(path)
         image = cv2.resize(image , (image_size, image_size))
-        empty_list.append([np.array(image)])
-    shuffle(empty_list)
+        imges_list.append([np.array(image)])
+    shuffle(imges_list)
 
-    return(empty_list)
+   #Convert List Into Array
+    array_image = np.array(imges_list)
+  
+    #Removed Dimention 
+    images = array_image[:,0,:,:]
+  
+    return(images)
 
-#All the images Stored Into a List
-list_images = images(images_path, image_size)
+if __name__ == "__main__":
+    images(images_path, image_size)
 
-#Convert List Into Array
-array_image = np.array(list_images)
-print('Array Shape : ', array_image.shape)
-
-#Removed Dimention 
-images = array_image[:,0,:,:]
-print('Image Shape : ',images.shape)
 
 #OUTPUT :
 '''
