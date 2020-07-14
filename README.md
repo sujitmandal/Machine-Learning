@@ -307,6 +307,8 @@ Download https://code.visualstudio.com/Download
 
 • pip install scipy
 
+• pip install flask
+
 • pip install tqdm
 
 License:
