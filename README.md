@@ -193,32 +193,6 @@ Iteration 4 :
 
  [![Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |](https://yt-embed.herokuapp.com/embed?v=wfK5N9Qq1uk)](https://www.youtube.com/watch?v=wfK5N9Qq1uk "Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |")
 
- Plot Output:
---------------
-
- train mask image:
--------------------
-![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/train_mask_image.png)
-
- train without mask image:
----------------------------
-![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/train_without_mask_image.png)
-
- test mask image:
--------------------
-![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/test_mask_image.png)
-
- test without mask image:
----------------------------
-![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/test_without_mask_image.png)
-
- accuracy:
--------------------
-![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/Figure_1.png)
-
- accuracy:
----------------------------
-![](https://github.com/sujitmandal/Face-Mask-Detection/blob/master/plot/Figure_1.png)
 
  Method:
 ---------
