@@ -265,6 +265,8 @@ Download https://code.visualstudio.com/Download
 
 • pip install matplotlib
 
+• pip install streamlit
+
 • pip install tensorflow
 
 • conda install opencv
