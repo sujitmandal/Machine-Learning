@@ -1,4 +1,4 @@
-# Machine-Learning
+## Machine-Learning
 Linear Regression , k-mean clustering , Watershed , Gradients and Edge Detection , Threshold , Corelation , Neural Network
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -188,15 +188,12 @@ Iteration 4 :
 ---------------------
 • A measure that combines precision and recall is the harmonic mean of precision and recall that traditionally called F-Measure or balance F-score. 
 
- Face Mask Detection using Tensorflow, Keras, Opencv, Python :
--------------------------------------------------------------
-
+## Face Mask Detection using Tensorflow, Keras, Opencv, Python :
  [![Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |](https://yt-embed.herokuapp.com/embed?v=wfK5N9Qq1uk)](https://www.youtube.com/watch?v=wfK5N9Qq1uk "Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |")
 
 
- Method:
----------
-
+## Method:
+```
 1. Linear Regression
 2. k-mean clustering 
 3. Watershed 
@@ -209,47 +206,32 @@ Iteration 4 :
 10. Face Mask Detection
 11. Image to Array and train and test
 12. Pneumonia Classification
-
- Requirement’s:
-----------------
-
+```
+## Requirement’s:
+```
 • Python 
 
 • Anaconda
 
 • Visual Studio Code
+```
+## LINK’S:
+• [Python Download](https://www.python.org/downloads/)
 
- LINK’S:
----------
+• [Anaconda Download](https://www.anaconda.com/downloads)
 
-• Python : 
-----------
-Download https://www.python.org/downloads/
+• [Visual Studio Download](https://code.visualstudio.com/Download)
 
-• Anaconda : 
-------------
-• Download https://www.anaconda.com/downloads
-
-• Visual Studio Code :
-----------------------
-Download https://code.visualstudio.com/Download
-
-•Linux:
-------
-How to install Anaconda In Linux | Create Environment | Install TensorFlow | Opencv library |
----------------------------------------------------------------------------------------------
+## Linux:
+ How to install Anaconda In Linux | Create Environment | Install TensorFlow | Opencv library |
  [![How to install | Python | | Anaconda | | Opencv library |](https://yt-embed.herokuapp.com/embed?v=Mfbrxy8gK6A)](https://www.youtube.com/watch?v=Mfbrxy8gK6A "How to install Anaconda In Linux | Create Environment | Install TensorFlow | Opencv library |")
 
-• Windows:
--------
-
-• How to install | Python | | Anaconda | | Opencv library |
-------------------------------------------------------------
+##  Windows:
+How to install | Python | | Anaconda | | Opencv library |
  [![How to install | Python | | Anaconda | | Opencv library |](https://yt-embed.herokuapp.com/embed?v=eVV3byQlYvA)](https://www.youtube.com/watch?v=eVV3byQlYvA "How to install | Python | | Anaconda | | Opencv library |")
 
-
- Installing the required package’s:
--------------------------------------
+## Installing the required package’s:
+```
 • pip install -q git+https://github.com/tensorflow/docs 
 
 • conda install -c conda-forge opencv=4.2.0
@@ -283,18 +265,19 @@ How to install Anaconda In Linux | Create Environment | Install TensorFlow | Ope
 • pip install flask
 
 • pip install tqdm
-
-License:
---------
+```
+## License:
 MIT Licensed
 
-Author:
--------
+## Author:
 Sujit Mandal
 
-LinkedIn : https://www.linkedin.com/in/sujit-mandal-91215013a/
+[GitHub](https://github.com/sujitmandal)
 
-Facebook : https://www.facebook.com/sujit.mandal.33671748
+[PyPI](https://pypi.org/project/images-into-array/)
 
-Twitter : https://twitter.com/mandalsujit37
+[LinkedIn](https://www.linkedin.com/in/sujit-mandal-91215013a/)
 
+[Facebook](https://www.facebook.com/sujit.mandal.33671748)
+
+[Twitter](https://twitter.com/mandalsujit37)
