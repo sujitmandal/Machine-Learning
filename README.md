@@ -188,10 +188,6 @@ Iteration 4 :
 ---------------------
 • A measure that combines precision and recall is the harmonic mean of precision and recall that traditionally called F-Measure or balance F-score. 
 
-## Face Mask Detection using Tensorflow, Keras, Opencv, Python :
- [![Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |](https://yt-embed.herokuapp.com/embed?v=wfK5N9Qq1uk)](https://www.youtube.com/watch?v=wfK5N9Qq1uk "Face Mask Detection Using | Convolutional Neural Networks | Tensorflow | Python |")
-
-
 ## Method:
 ```
 1. Linear Regression
@@ -203,9 +199,8 @@ Iteration 4 :
 7. Correlation
 8. Neural Network
 9. Convolutional Neural Network
-10. Face Mask Detection
-11. Image to Array and train and test
-12. Pneumonia Classification
+10. Image to Array and train and test
+11. Pneumonia Classification
 ```
 ## Requirement’s:
 ```
@@ -274,10 +269,6 @@ Sujit Mandal
 
 [GitHub](https://github.com/sujitmandal)
 
-[PyPI](https://pypi.org/project/images-into-array/)
+[PyPI](https://pypi.org/user/sujitmandal/)
 
 [LinkedIn](https://www.linkedin.com/in/sujit-mandal-91215013a/)
-
-[Facebook](https://www.facebook.com/sujit.mandal.33671748)
-
-[Twitter](https://twitter.com/mandalsujit37)
