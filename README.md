@@ -201,6 +201,9 @@ Iteration 4 :
 9. Convolutional Neural Network
 10. Image to Array and train and test
 11. Pneumonia Classification
+12. Social Distancing
+13. Rainfall Prediction
+14. Boston Housing Price Prediction
 ```
 ## Requirement’s:
 ```
